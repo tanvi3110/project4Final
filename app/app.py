@@ -3,10 +3,6 @@ from logic import square_of_number_plus_nine
 
 
 # Create Flask's `app` object
-app = Flask(__name__)
-
-
-# Create Flask's `app` object
 app = Flask(
     __name__,
     instance_relative_config=False,
