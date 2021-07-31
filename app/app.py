@@ -1,7 +1,7 @@
 from flask import Flask, Markup, render_template, make_response, request, jsonify
 from logic import square_of_number_plus_nine
 
-
+app = Flask(__name__)
 # Create Flask's `app` object
 app = Flask(
     __name__,
@@ -30,7 +30,7 @@ def hello_template():
 @app.route("/response")
 def response():
     headers = {"Content-Type": "application/json"}
-    return make_response('it worked!', 200, headers)
+    return make_response('it worked!!', 200, headers)
 
 
 @app.route("/get", methods=['GET'])
@@ -38,7 +38,7 @@ def get_hello():
     if request.method != 'GET':
         return make_response('Malformed request', 400)
     headers = {"Content-Type": "application/json"}
-    return make_response('it worked!', 200, headers)
+    return make_response('it worked!!', 200, headers)
 
 
 @app.route("/", methods=['GET'])
