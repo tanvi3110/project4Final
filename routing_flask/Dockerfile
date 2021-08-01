@@ -2,11 +2,11 @@ FROM python:3.8
 
 EXPOSE 5003
 
-WORKDIR /app4
+WORKDIR /routing_flask
 
-COPY requirements.txt /app4
+COPY requirements.txt /routing_flask
 RUN pip install  -r requirements.txt --upgrade pip
 
-COPY . /app4
+COPY . /routing_flask
 
 CMD python app.py
