@@ -16,12 +16,17 @@ services:
     ports:
       - "5002:5002"
   app4:
-    build: ./routing_flask
+    build: ./app4
     container_name: "Flask_App_4"
     ports:
       - "5003:5003"
   app5:
-    build: ./configure_flask
+    build: ./app5
     container_name: "Flask_App_5"
     ports:
       - "5004:5004"
+  app6:
+    build: ./flask_app_factory
+    container_name: "Flask_App_6"
+    ports:
+      - "5005:5005"
