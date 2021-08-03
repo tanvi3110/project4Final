@@ -7,16 +7,16 @@
 
 ## Link to all Parts
 [Part_1](app)\
-[Part_2](flask_jinja_tutorial)\
-[Part_3](Flask_WTForms_tutorial)\
-[Part_4](Routing_Flask)\
-[Part_5](Configure_Flask)\
-[Part_6](Flask_App_Factory)\
-[Part_7](Flask_Blueprint_Tutorial)\
-[Part_8](Flask_Assets_Tutorial)\
-[Part_9](Flask_SQLAlchemy_Tutorial)\
-[Part_10](FlaskLogin_Tutorial)\
-[Part_11](Flask_Session_Tutorial)
+[Part_2](flask-jinja-tutorial)\
+[Part_3](flask-wtforms-tutorial)\
+[Part_4](routing_flask)\
+[Part_5](configure_flask)\
+[Part_6](flask_app_factory)\
+[Part_7](flask_blueprint_tutorial)\
+[Part_8](alask-assets-tutorial)\
+[Part_9](flask_sqlalchemy_tutorial)\
+[Part_10](flasklogin_tutorial)\
+[Part_11](flask_session_tutorial)
 
 ## Snapshots
 
