@@ -35,3 +35,8 @@ services:
     container_name: "Flask_App7"
     ports:
       - "5006:5006"
+  app8:
+    build: flask-assets-tutorials/flask-assets-tutorial
+    container_name: "Flask_App8"
+    ports:
+      - "5007:5007"
