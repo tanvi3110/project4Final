@@ -13,7 +13,7 @@
 [Part_5](configure_flask)\
 [Part_6](flask_app_factory)\
 [Part_7](flask_blueprint_tutorial)\
-[Part_8](alask-assets-tutorial)\
+[Part_8](flask-assets-tutorial)\
 [Part_9](flask_sqlalchemy_tutorial)\
 [Part_10](flasklogin_tutorial)\
 [Part_11](flask_session_tutorial)
